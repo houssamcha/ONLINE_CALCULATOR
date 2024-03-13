@@ -4,11 +4,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(240, 33%, 1%);
 }
 #calculator{
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -18,8 +18,8 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
+    background-color: hsl(0, 2%, 80%);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
@@ -30,7 +30,7 @@ button{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(225, 2%, 32%);
     color: white;
 }
 #keys{
@@ -44,4 +44,13 @@ button:hover{
 }
 button:active{
     background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: hsla(241, 96%, 63%, 0.925);
+}
+.operator-btn:hover{
+    background-color: hsla(244, 76%, 75%, 0.806);
+}
+.operator-btn:active{
+    background-color: hsl(240, 43%, 89%);
 }
